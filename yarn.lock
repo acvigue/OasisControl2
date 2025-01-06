@@ -186,7 +186,7 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.0.tgz#a5417ae8427873f1dd08b70b3574b453e67b5f7f"
   integrity sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==
 
-"@formkit/core@1.2.1", "@formkit/core@^1.2.1":
+"@formkit/core@1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@formkit/core/-/core-1.2.1.tgz#789b48f3ce517bb1e7b82b6013b57a4e800a4277"
   integrity sha512-0sbtvYg1NzESYTOymUPjHYbNENeomBaN3UFsPgpQHZD6bkl+uH7wk0EZWFcdtpVXzd288DZIxQu5cLNj7u1+tg==
@@ -201,6 +201,11 @@
     "@formkit/core" "1.2.1"
     "@formkit/utils" "1.2.1"
 
+"@formkit/drag-and-drop@^0.0.38":
+  version "0.0.38"
+  resolved "https://registry.yarnpkg.com/@formkit/drag-and-drop/-/drag-and-drop-0.0.38.tgz#2f90a6488005ec723e9ae2730ddc3f6b2bf75fec"
+  integrity sha512-3uJFcqz1xL7x/5pClDnyqEDfyFRDFH+75MFpJYXnVF17oekxLrwbUaOBN7ttKGn1jW2MdojRw4WMnSN1iLryvw==
+
 "@formkit/i18n@1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@formkit/i18n/-/i18n-1.2.1.tgz#de8bc4d82380f6098275b713c80d92e13c1031e6"
@@ -210,7 +215,7 @@
     "@formkit/utils" "1.2.1"
     "@formkit/validation" "1.2.1"
 
-"@formkit/inputs@1.2.1", "@formkit/inputs@^1.2.1":
+"@formkit/inputs@1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@formkit/inputs/-/inputs-1.2.1.tgz#f0f09ad054cc73fec7fd62a147ddb99446701754"
   integrity sha512-ziTBYC87thQpwQn5S7A/dPGAYRJhiYp3FinJy2o3LY1Y2l1/8rkKReSvQQgdBQzsgdGxJcpjuvVOBPTM4TyVbQ==
@@ -226,13 +231,13 @@
     "@formkit/core" "1.2.1"
     "@formkit/utils" "1.2.1"
 
-"@formkit/pro@0.117.5":
-  version "0.117.5"
-  resolved "https://registry.yarnpkg.com/@formkit/pro/-/pro-0.117.5.tgz#4b2e9dc91a0cbe9f8593d0d11a86048b00e90bfb"
-  integrity sha512-QHY6eFn7dU8VVd2mibtiX8VzoVRVNspd3/2iRpugThgpzUo+a9O9nPPZQhRTR61wTS39LPLKTMHmGvhR4scJ4g==
+"@formkit/pro@0.127.16":
+  version "0.127.16"
+  resolved "https://registry.yarnpkg.com/@formkit/pro/-/pro-0.127.16.tgz#8ab41555065acccdeb6d72e1e3e0648417c9e31b"
+  integrity sha512-KztOT/sKQ0BgOGDUmrBx27CRTl36h91UCqE7RSUPjHNL6R+wpQ6tLgTREhreS9tcHue7eNuFmdeKXqurt0slWQ==
   dependencies:
-    "@formkit/core" "^1.2.1"
-    "@formkit/inputs" "^1.2.1"
+    "@formkit/drag-and-drop" "^0.0.38"
+    "@formkit/tempo" "^0.1.2"
 
 "@formkit/rules@1.2.1":
   version "1.2.1"
@@ -242,6 +247,11 @@
     "@formkit/core" "1.2.1"
     "@formkit/utils" "1.2.1"
     "@formkit/validation" "1.2.1"
+
+"@formkit/tempo@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@formkit/tempo/-/tempo-0.1.2.tgz#85ff615dddc6cc55ab9f9ca83cf9a41cfdf778fc"
+  integrity sha512-jNPPbjL8oj7hK3eHX++CwbR6X4GKQt+x00/q4yeXkwynXHGKL27dylYhpEgwrmediPP4y7s0XtN1if/M/JYujg==
 
 "@formkit/themes@1.2.1":
   version "1.2.1"
