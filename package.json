@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@formkit/core": "1.2.1",
-    "@formkit/pro": "0.117.5",
+    "@formkit/pro": "0.127.16",
     "@formkit/themes": "1.2.1",
     "@formkit/vue": "1.2.1",
     "@heroicons/vue": "^2.0.18",
